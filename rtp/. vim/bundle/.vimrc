@@ -122,14 +122,14 @@ more information.
 
   Launch vim and run
 >
-    :PluginInstall
+    :PluginInstall:
 <
   To install from command line:
 >
     vim +PluginInstall +qall
 
 =============================================================================
-3. PLUGINS ~
+3. ^PLUGINS ~
                                                              *vundle-plugins*
 
 3.1 CONFIGURING PLUGINS ~
