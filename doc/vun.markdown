@@ -1,4 +1,7 @@
-*vundle.txt*          Vundle, a plug-in manager for Vim.             *vundle*
+**vundle.vim**          Vun, a plug-in manager for Vim.             **vundle*
+**vundle.nim** 
+**vundle.nix** 
+**vundle.mo** 
 
                               VUNDLE MANUAL
 
