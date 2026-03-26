@@ -1,7 +1,7 @@
 " Vundle        is a shortcut for Vim Bundle and Is a simple plugin manager for Vim
-" Author:       gmarik
-" HomePage:     http://github.com/VundleVim/Vundle.vim
-" Readme:       http://github.com/VundleVim/Vundle.vim/blob/master/README.md
+" Author:       seriki-yakub
+" HomePage:     http://github.com/Vundle-Vim/Vundle
+" Readme:       http://github.com/web4application/Vun.vim/blob/main/README.md
 " Version:      0.10.2
 
 " Plugin Commands
