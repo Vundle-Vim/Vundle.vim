@@ -1,5 +1,8 @@
-**vundle.vim**          Vun, a plug-in manager for Vim.             **vundle*
-**vundle.nim** 
+                     :Vun, a plug-in manager for Vim.:     Vundle-Vim.prg 
+
+**vundle.vim**                          
+**vundle**
+**vundle.*nim** 
 **vundle.nix** 
 **vundle.mo** 
 
@@ -57,48 +60,48 @@ more information.
 
                                                              *vundle-windows*
   If you are using Windows, see instructions on the Wiki
-  https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows.
+  https://github.com/Vundle-Vim/Vundle.vim/wiki/Vundle-for-Windows.
 
                                                                  *vundle-faq*
   If you run into any issues, please consult the FAQ at
-  https://github.com/VundleVim/Vundle.vim/wiki
+  https://github.com/Vundle-Vim/Vundle.vim/wiki
 
 2. Setup Vundle:
 >
-  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  git clone https://github.com/Vundle-Vim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 <
 3. Configure bundles:
 
   Put this at the top of your `.vimrc` to use Vundle. Remove bundles you
   don't need, they are for illustration purposes.
+  
 >
     set nocompatible              " be iMproved, required
     filetype off                  " required
 
-    " set the runtime path to include Vundle and initialize
+> " set the runtime path to include Vundle and initialize
     set rtp+=~/.vim/bundle/Vundle.vim
     call vundle#begin()
-    " alternatively, pass a path where Vundle should install plugins
+
+>  " alternatively, pass a path where Vundle should install plugins
     "call vundle#begin('~/some/path/here')
-
     " let Vundle manage Vundle, required
-    Plugin 'VundleVim/Vundle.vim'
-
+    Plugin 'Vundle-Vim/Vundle.vim'
     " The following are examples of different formats supported.
     " Keep Plugin commands between vundle#begin/end.
     " plugin on GitHub repo
-    Plugin 'tpope/vim-fugitive'
+    Plugin 'Vundle-Vim/vim-fugitive'
     " plugin from http://vim-scripts.org/vim/scripts.html
     Plugin 'L9'
     " Git plugin not hosted on GitHub
-    Plugin 'git://git.wincent.com/command-t.git'
+    Plugin 'git://git.Vundle-Vim.com/command-t.git'
     " git repos on your local machine (i.e. when working on your own plugin)
-    Plugin 'file:///home/gmarik/path/to/plugin'
+    Plugin 'file:///home/Vundle-Vim/Vun.Vim/main/plugin'
     " The sparkup vim script is in a subdirectory of this repo called vim.
     " Pass the path to set the runtimepath properly.
-    Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+    Plugin 'Vundle-Vim/vun.vim', {'rtp': 'vim/'}
     " Avoid a name conflict with L9
-    Plugin 'user/L9', {'name': 'newL9'}
+    Plugin 'Vundle-Vim/L9', {'name': 'vun.vim'}
 
     " All of your Plugins must be added before the following line
     call vundle#end()            " required
@@ -217,14 +220,13 @@ Vim Scripts
 -----------
 Any single word without a slash '/' is assumed to be from Vim Scripts.
 >
-  Plugin 'ctrlp.vim' => https://github.com/vim-scripts/ctrlp.vim
-
+  Plugin 'ctrlp.vim' => https://github.com/Vundle-Vim
 Other Git URIs
 --------------
 No modification is performed on valid URIs that point outside the above
 URLs.
 >
-  Plugin 'git://git.wincent.com/command-t.git'
+  Plugin 'git://git.Vundle-Vim.com/command-t.git'
 
 Local Plugins
 -------------
